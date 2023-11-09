@@ -1,7 +1,7 @@
 
 # deep-learning-challenge
 
-#
+# Neural Network Model to Alpahbet Soup Fundation
 
 ## Overview of the Analysis
 The propose of the report is to explain if the model that we create with the data that Alphabet Soup Foundation give us have the accuracy neccesary to select the applicants for funding with the best chance of success in their ventures. For this, we make to models. 
