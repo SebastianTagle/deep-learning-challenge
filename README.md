@@ -43,20 +43,9 @@ The second neural network model use three hidden layers with 100, 60 and 60 node
     * improve the model performance
             to improve the model performance,  we considered the following changes in the model
             - change in the classfication columns, we take like other classification everything less than 500.
-            - add to hidden layers and change the numbers of nodes.
+            - add to hidden layers and change the numbers of nodes. This, because i think that the data have a lot of details, so you need the necessary nodes and layers to analyse as many alternatives as posisible.
             - change the activation model. In this case we considered that only the first hidden layers was "relu", the others was "sigmoid" activation model. we change the activation model because i think that is the best model to predict  the probability of success.
 
-
-* Optimized Model with Keras Tunner
-    After we run both model (Original and Optimized) and didnt achieve the tarjet of 75% of accuracy, we decide to run the keras tuner to get the optimal parameters know what information related with layers, nodes, epochs, we need to use to find the best model. 
-
-    In conclusion we get that the best model is 
-        nodes:
-        epoch:
-        layers:
-        activation:
-
-    with this parameters we get a loss ratio of % and % of accuracy.
 
 ## Summary
 If you can see compare the graph of loss and accuracy for the models, both have a similar loss with 53% of the data,
@@ -65,5 +54,5 @@ If you can see compare the graph of loss and accuracy for the models, both have 
 Additionally, if we compate the accuracy graph, both models have similar accurary with 74%, this is insufficient to say that the model can predict the selection of good applicants.
 ![Alt text](<Accuracy Model.png>)  ![Alt text](<Accuracy Model Optimized.png>)
 
-Finally, the we evaluates the models, we have that both have a accurary of 72,6% and 57% of loss of the information.
+Finally, we evaluates the models, we have that both have a accurary of 72,6% and 57% of loss of the information. so you can conclude that the models dont have the accuracy neccesary to predict the success of the applicants.
  
